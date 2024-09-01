@@ -32,7 +32,16 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images fill their container while maintaining aspect ratio */
+}
 
+.gallery .image {
+    max-width: 350px; /* Set a consistent max-width for gallery images */
+    margin: 0 auto; /* Center images */
+}
 ol, ul {
 	list-style: none;
 }
